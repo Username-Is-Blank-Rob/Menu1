@@ -1,0 +1,25 @@
+/* tag names effect all tags*/
+ul{
+  list-style-type:  none;
+/* gets rid of circles*/
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* color */
+  background: #ffa600;
+
+}
+
+li{
+  /* makes us horizontal*/
+  float: left;
+}
+li a{
+  display: block;
+  color: black;
+  text-align: center;
+  padding-left: 14px;
+  padding-right: 14px;
+  text-decoration: none;
+
+}
